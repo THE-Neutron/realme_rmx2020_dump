@@ -1,0 +1,47 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.brand=realme
+ro.product.product.device=RMX2020
+ro.product.product.manufacturer=realme
+ro.product.product.model=realme Monet
+ro.product.product.name=octavi_RMX2020
+ro.product.build.date=Sun Feb  6 07:30:02 UTC 2022
+ro.product.build.date.utc=1644132602
+ro.product.build.fingerprint=google/coral/coral:12/SQ1A.220105.002/7961164:user/release-keys
+ro.product.build.id=SQ1D.220105.007
+ro.product.build.tags=release-keys
+ro.product.build.type=userdebug
+ro.product.build.version.incremental=eng.ggaram.20220206.050439
+ro.product.build.version.release=12
+ro.product.build.version.release_or_codename=12
+ro.product.build.version.sdk=31
+####################################
+# from device/realme/RMX2020/configs/props/product.prop
+####################################
+# Zygote
+persist.device_config.runtime_native.usap_pool_enabled=true
+# Privapp permissions whitelisting
+ro.control_privapp_permissions=log
+# One Handed Mode
+ro.support_one_handed_mode=true
+# Kill Logspams
+persist.vendor.ims.disableADBLogs=1
+persist.vendor.ims.disableDebugLogs=1
+persist.vendor.ims.disableIMSLogs=1
+persist.vendor.ims.disableQXDMLogs=1
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.build.characteristics=default
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.support_one_handed_mode=true
+ro.config.notification_sound=Argon.ogg
+ro.config.alarm_alert=Hassium.ogg
+ro.config.ringtone=Orion.ogg
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file

@@ -1,0 +1,13 @@
+#line 1 "device/realme/RMX2020/sepolicy/private/property_contexts"
+persist.perf_profile u:object_r:perf_prop:s0
+#line 1 "device/octavi/sepolicy/common/private/property_contexts"
+ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
+
+# Aux camera blacklist prop readable to everything
+vendor.camera.aux.packageblacklist     u:object_r:exported_default_prop:s0
+
+# HAL1 prop readable to everything
+vendor.camera.hal1.packagelist         u:object_r:exported_default_prop:s0
+
+# Aux camera whitelist prop readable to everything
+vendor.camera.aux.packagelist          u:object_r:exported_default_prop:s0
